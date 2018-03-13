@@ -1,0 +1,92 @@
+
+header { font-family: 'Bungee', cursive;
+}
+nav { font-family: 'Calibri', sans-serif; font-size:26px; color: black;
+font-style: oblique;
+
+}
+
+.wrapper {
+  width: 750px;
+  margin: auto;
+}
+.wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.top-nav {
+  float: left;
+  margin: 72px;
+}
+
+.top-nav ul {
+  margin: 0;
+  list-style: none;
+}
+
+.top-nav ul li {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+
+.top-nav ul li a {
+  font-size: 22px;
+  font-family: 'Anton', cursive;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#top-nav-right { float: right;}
+
+.top-nav ul li a:hover {
+  color: silver;
+}
+
+header h1 {
+  float: left;
+  font-size: 55px;
+  margin: 0;
+  padding-top: 50px;
+  font-family: 'Bungee', cursive;
+}
+
+header h1 a {
+  text-decoration: none;
+  color: black;
+}
+
+header h2 a:hover {
+  color: blue;
+}
+
+header {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  border-top: 4px solid blue;
+  z-index: 999;
+  background-color: blue;
+}
+
+main {
+  min-height: 400px;
+  background-color: #fff;
+}
+footer h3 a { color: black;}
+footer h3 a:hover {
+  color: red; }
+footer {
+   font-family: 'Bungee', cursive; font-weight: 11; font-size:21px;
+  color:   red;
+  height: 150px;
+  background-color: blue;
+  text-align: center;
+}
+
+.gtr {
+  border-width: 50px; color: #ffff00; font-family: 'Bungee', cursive; font-weight: bold;
+text-align: center; font-size: 50px; border-style: solid; border-color: red;}
+.gtr {
+  font-family: 'Bungee', cursive; text-align: center;}
